@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Calibri, sans-serif;
+    background-color: slategrey;
+    color: white;
+    font-size: 24px;
+}
+
+.banner {
+    background-color:cornflowerblue;
+    text-align: center;
+    margin-top: 0;
+    padding: 30px;
+    font-size: 50px;
+}
+
+.recipe-link {
+    background-color:darkcyan;
+    font-size: 32px;
+    padding: 20px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.recipe-link:hover {
+    background-color: black;
+}
+
+.recipe-image {
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.section {
+    background-color:darkmagenta;
+    font-size: 32px;
+    padding: 10px;
+    display: block;
+}
+
